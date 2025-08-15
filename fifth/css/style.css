@@ -20,6 +20,8 @@ section {
   display: flex;
   background: #fe5f55;
   justify-content: center;
+  overflow: hidden;
+
   align-items: center;
   /* /* padding-right: 50px; */
   padding-top: 30px;
@@ -37,6 +39,7 @@ section {
 .eyes {
   display: flex;
   gap: 40px;
+
   justify-content: center;
   padding-top: 30px;
 }
@@ -69,15 +72,9 @@ section {
   position: absolute;
 }
 
-.first-circle {
-  width: 150px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #fff1c1;
-}
-
+.first-circle,
 .second-circle {
-  width: 150px;
+  width: 160px;
   height: 200px;
   border-radius: 50%;
   background-color: #fff1c1;
